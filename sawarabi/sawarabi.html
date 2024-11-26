@@ -61,3 +61,41 @@
     </div>
   </li>
 </ul>
+
+<!--お問い合わせ-->
+<div id="cf7-area">
+  <div class="form-heading">以下のフォームに必要情報を入力してください</div>
+  <div class="form-text">※個人情報保護方針は<a href="https://portfolio.inooto.com/swell/06/privacy-policy/">こちら</a></div>
+  <div class="cf7-item">
+    <div class="cf7-q"><label>氏名<span class="cf7-req">必須</span></label></div>
+    <div class="cf7-a">[text* your-name placeholder "例：山田　太郎"]</div>
+  </div>
+  <div class="cf7-item">
+    <div class="cf7-q"><label>会社名（任意）</label></div>
+    <div class="cf7-a">[text* your-business placeholder "例：株式会社さわらび"]</div>
+  </div>
+  <div class="cf7-item">
+    <div class="cf7-q"><label>部署名（任意）</label></div>
+    <div class="cf7-a">[text* your-store placeholder "例：○○部"]</div>
+  </div>
+  <div class="cf7-item">
+    <div class="cf7-q"><label>メールアドレス<span class="cf7-req">必須</span></label></div>
+    <div class="cf7-a">[email* your-email placeholder "例：〇〇〇@gmail.com"]</div>
+  </div>    
+  <div class="cf7-item">
+    <div class="cf7-q"><label>電話番号（任意）</label></div>
+    <div class="cf7-a">[tel* your-tel placeholder "例：03-1234-1234"]</div>
+  </div>
+  <div class="cf7-item">
+    <div class="cf7-q"><label>メッセージ本文<span class="cf7-req">必須</span></label></div>
+    <div class="cf7-a">[textarea* your-message placeholder "お問い合わせ内容を記載してください。"]</div>
+  </div>
+  <div class="form-text">弊社の<a id="privacy" href="https://portfolio.inooto.com/swell/06/privacy-policy/">プライバシーポリシー</a>をお読みいただき、すべての内容に同意のうえご登録ください。</div>
+  <div class="cf7-submit">[submit “この内容で送信する”]</div>
+</div>
+
+<script>
+  document.addEventListener( 'wpcf7mailsent', function( event ) {
+  location = 'https://portfolio.inooto.com/swell/06/thanks/';
+  }, false );
+</script>
