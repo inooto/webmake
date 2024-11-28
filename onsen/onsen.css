@@ -1,0 +1,116 @@
+@media (min-width: 1000px){
+	#header{
+		position:fixed;
+		width: 300px;
+		height: 100%;
+		padding-top: 100px;
+	}
+	
+	#header .c-gnav{
+		flex-direction: column;
+		text-align: left;
+		margin:20px 0;
+	}
+	
+	.l-header__bar pc_{
+		height: 0;
+	}
+	
+	.-series .l-header__inner{
+		display: block;
+	}
+	
+	.-series .l-header__logo{
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+		align-items: initial;
+	}
+	
+	.c-headLogo{
+		height: auto;
+		writing-mode: vertical-rl;
+	}
+	
+	.w-header{
+		margin-top: 70px;
+		justify-content: center;
+		position: relative;
+	}
+	
+	.-txt .c-headLogo__link {
+		font-size: 34px;
+		letter-spacing: 10px
+	}
+
+	
+	.l-header__inner .c-catchphrase{
+		writing-mode: vertical-rl;
+		letter-spacing: 3px;
+	}
+	
+	.-txt .c-headLogo__ling{
+		font-size: 34px;
+		letter-spacing: 20px;
+	}
+	
+	#header .c-gnav{
+		flex-direction: column;
+		text-align: left;
+		margin: 20px 0;
+	}
+	
+	.p-mainVisual{
+		padding-left: 250px;
+	}
+	
+	.l-topTitleArea{
+		padding-left: 250px;
+	}
+	
+	#content, #breadcrumb, #footer{
+		padding-left: 300px;
+	}
+}	
+
+
+#header .l-container{
+	padding: 0;
+}
+
+#gnav{
+	margin-top: 70px;
+	padding: 0 60px;
+}
+
+#gnav .c-gnav>.menu-item{
+	margin: 5px;
+}
+
+#gnav .c-gnav>.menu-item>a{
+	padding: 8px;
+}
+
+.main-text{
+	font-size: 40px;
+	writing-mode: vertical-rl;
+	float:right;
+	margin-top: 40px;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 990px){
+	.main-text{
+		font-size: 30px;
+		margin-top: 30px;
+	}
+}
+
+ #content {
+  padding-top: 0 !important;
+  margin-bottom: 0;
+}
+
+.archive.category #content{
+	background-color: #fff;
+}
